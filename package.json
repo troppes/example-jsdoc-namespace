@@ -1,0 +1,24 @@
+{
+  "name": "example-jsdoc-namespace",
+  "version": "1.0.0",
+  "description": "repo to explain namespaces",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --verbose ./jutge",
+    "jsdoc": "jsdoc -c ./.jsdoc.conf.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/troppes/example-jsdoc-namespace.git"
+  },
+  "author": "Florian Reitz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/troppes/example-jsdoc-namespace/issues"
+  },
+  "homepage": "https://github.com/troppes/example-jsdoc-namespace#readme",
+  "devDependencies": {
+    "jest": "^27.5.1",
+    "jsdoc": "^3.6.10"
+  }
+}
