@@ -1,6 +1,6 @@
 # Example for JSDOC Generation
 
-In this example I want to show you how to generate seperate pages for the source code in JSDoc without modifying the generated files. The result will be something like this:
+In this example I want to show you how to generate separate pages for the source code in JSDoc without modifying the generated files. The result will be something like this:
 
 ![finished home](https://github.com/troppes/example-jsdoc-namespace/blob/main/images/home.jpg?raw=true)
 
@@ -10,7 +10,7 @@ And if a namespace is selected you can see all the methods of that file:
 
 ## Adding namespaces
 
-To add the namespaces simply use the folling jsdoc commands:
+To add the namespaces simply use the following JSDoc commands:
 
 In the head of the file use: `@namespace desired-namespace` and afterwards in every function you want to include: `@memberof desired-namespace`. 
 
@@ -18,9 +18,9 @@ Examples for this can be found in the jutge folder in this repository.
 
 ## .jsdoc.conf.json
 
-You can see  that the source code, as well as the test are in the jutge folder. But we only want to generate JSDoc files for the source code and not the tests. To make this happen we can configure this behaviour in the `.jsdoc.conf.json`.
+You can see that the source code, as well as the test are in the jutge folder. But we only want to generate JSDoc files for the source code and not the tests. To make this happen we can configure this behavior in the `.jsdoc.conf.json`.
 
-In that file we can define the behaviour of JSDoc, for example which files are included or excluded:
+In that file we can define the behavior of JSDoc, for example which files are included or excluded:
 ```
 	"source": {
 	  "include": ["jutge"],
@@ -31,7 +31,7 @@ In that file we can define the behaviour of JSDoc, for example which files are i
 
 You can play around with this file to modify your results.
 
-## Calling jsdoc
+## Calling JSDoc
 
 To generate the docs easily you can add this script to your package.json:
 
