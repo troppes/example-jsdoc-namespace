@@ -2,8 +2,8 @@
 
 In this example I want to show you how to generate seperate Pages for the source code in JSDoc without modifying the generated files. At the end it will look like this:
 
-![finished home](https://github.com/troppes/example-jsdoc-namespace/images/home.jpg?raw=true)
-![finished jsdoc](https://github.com/troppes/example-jsdoc-namespace/images/specific_file.jpg?raw=true)
+![finished home](https://github.com/troppes/example-jsdoc-namespace/blob/main/images/home.jpg?raw=true)
+![finished jsdoc](https://github.com/troppes/example-jsdoc-namespace/blob/main/images/specific_file.jpg?raw=true)
 
 ## Adding namespaces
 
